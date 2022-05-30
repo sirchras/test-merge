@@ -1,0 +1,2 @@
+# test-merge
+I wanted to see if it was possible to fix merge conflicts on the target branch and update a PR. I found that fixing on the target branch would create a merge commit, which upon pushing to GitHub would auto close the PR. I don't think that this is best practice, it seems to encourage a dev branch which is behind the master branch and increase the likelihood of new changes in dev conflicting with existing upsteam changes
