@@ -1,1 +1,3 @@
-console.log('hello world')
+const { hello } = require('./hello')
+
+console.log(hello('world'))
