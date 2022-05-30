@@ -6,3 +6,4 @@ function greet(name) {
 
 greet('world')
 greet('friend')
+greet('there')
