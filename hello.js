@@ -2,4 +2,8 @@ function hello(name) {
 	return `hello ${name}`
 }
 
-module.exports = { hello }
+function helloworld() {
+	return hello('world')
+}
+
+module.exports = { hello, helloworld }
